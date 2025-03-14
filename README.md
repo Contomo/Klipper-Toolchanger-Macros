@@ -15,3 +15,28 @@ assuming  current tool 1 is active
 
 The Preheating of the tools is managed in an intelligent way, where every next tool is preheated in the list to 50 less than the purging temps.
 that way the time is handled properly of heating of tools. saving time between purges. and staying within a save 24V power draw (because instantly heating all 6 tools at once, may cause issues with some PSUs
+
+
+### ShaperManagement.cfg 
+manages your shapers based on the following logic:
+load tool shapers if possible and avalible, if they arent, it uses the degfault shaper from the toolchanger config.
+if both arent avalible. it uses no shaper.
+usage:
+_UPDATE_SHAPER T={tool.tool_number}
+example:
+```
+after_change_gcode:
+    {% set tn = "T"+(tool.tool_number|string) %}
+    {% if printer["gcode_macro " + tn ] %}
+        SET_GCODE_VARIABLE MACRO={tn} VARIABLE=color VALUE="'c44'"
+    {% endif %}
+    _UPDATE_SHAPER T={tool.tool_number}
+```
+includes inbuilt errorproofing. You will get warnings on whats missing if it is. 
+
+[toolchanger]
+params_supress_warnings_low: False
+
+Set to True to supress those warnings if they annoy you.
+
+Features: everything is optional. if you didnt define shapers in a single tool. the whole thing is not just gonna error or crash, its just gonna revert back to default.
