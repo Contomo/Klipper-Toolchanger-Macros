@@ -17,10 +17,18 @@ The Preheating of the tools is managed in an intelligent way, where every next t
 that way the time is handled properly of heating of tools. saving time between purges. and staying within a save 24V power draw (because instantly heating all 6 tools at once, may cause issues with some PSUs
 
 
-## mShaperManagement.cfg 
+## ShaperManagement.cfg 
 manages your shapers based on the following logic:
-load tool shapers if possible and avalible, if they arent, it uses the degfault shaper from the toolchanger config.
-if both arent avalible. it uses no shaper.
+
+[input_shaper]
+shaper_type_x: mzv
+shaper_type_Y: mzv
+shaper_freq_x: 55.4
+shaper_freq_y: 39.4
+damping_ratio_x: 0.06
+damping_ratio_y: 0.13
+#rest is defined in tools and or the macro. these set here are default fallback vals
+
 usage:
 _UPDATE_SHAPER T={tool.tool_number}
 example:
