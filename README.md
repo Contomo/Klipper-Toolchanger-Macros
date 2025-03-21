@@ -22,8 +22,8 @@ Std  X=0.03316, Y=0.03261, Z=0.00209
 Mean X=219.6993, Y=7.9583, Z=4.3401
 
 Std  X=0.00242, Y=0.00604, Z=0.00177
-Mean X=219.691, Y=7.9644, Z=4.3414```
-
+Mean X=219.691, Y=7.9644, Z=4.3414
+```
 lower one is the probe itself, so an std of about 2um in the x 6um in y and 1umm in the z
 thats pretty good. homing is 33um X (im using sensorless) 32um in the Y (regular microswitch) and 2um in the z (tap)
 the difference of those would be the actual (well close enough) but just looking at the values you can tell its not bad at all! 
