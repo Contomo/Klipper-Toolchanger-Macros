@@ -1,7 +1,14 @@
 # Klipper-Toolchanger-Macros
 
-yes i use 4 space intendation. yes i think its more readable that way.
-if you agree, wanna become a trans spacer, be smart. ctrl+a ctrl+c -> chat.openai.com -> ctrl+v -> please convert this to 4 space indent -> profit
+## tc_offset_calibration_extras.cfg
+edit 
+```
+variable_edge_offset: 15
+variable_grid_count: 3
+```
+Run ```TC_ENDSTOP_AND_NUDGE_ACCURACY``` to start running a test for the nudge std deviation and endstop deviation.
+
+
 
 ## purge.cfg 
 purge.cfg contains PURGE_TOOL as the main macro, callable while printing or idle.
