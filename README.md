@@ -7,7 +7,10 @@ variable_edge_offset: 15
 variable_grid_count: 3
 ```
 Run ```TC_ENDSTOP_AND_NUDGE_ACCURACY``` to start running a test for the nudge std deviation and endstop deviation.
+doesnt really need changing of anything, default will grab 3x3 so 9 probes and get the std deviations of them.
 
+since there is no native option to stop the console spam from the toolchanger plugin i can HIGHLY recommend adding this into your mainsaiils interface (console) settings.
+```^Probe made contact at [-+]?\d+\.\d+,\s*[-+]?\d+\.\d+,\s*[-+]?\d+\.\d+$``` as a regex filter
 
 
 ## purge.cfg 
