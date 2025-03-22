@@ -1,5 +1,12 @@
 # Klipper-Toolchanger-Macros
 
+## PRINTER_PRINT_PATH.cfg
+a single macro which lets you explore around the possible variables in real time.
+provide PATH=somethign to explore
+so for example:
+```
+
+```
 ## toolchanger.cfg
 a custom toolchanger config to handle custom tool pickup failure stuff. very much WIP
 `_TC_FAILURE`
