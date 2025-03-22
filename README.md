@@ -4,9 +4,8 @@
 a single macro which lets you explore around the possible variables in real time.
 provide PATH=somethign to explore
 so for example:
-```
+![image](https://github.com/user-attachments/assets/72a276db-06df-402f-87c1-117bd051f834)
 
-```
 ## toolchanger.cfg
 a custom toolchanger config to handle custom tool pickup failure stuff. very much WIP
 `_TC_FAILURE`
