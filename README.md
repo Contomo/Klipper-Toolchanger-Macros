@@ -1,5 +1,13 @@
 # Klipper-Toolchanger-Macros
 
+## toolchanger.cfg
+a custom toolchanger config to handle custom tool pickup failure stuff. very much WIP
+`_TC_FAILURE`
+inside there define what you want to happen at pickup failure(nothing would mean, printer would just sit there)
+`TC_RECOVER_FAILURE`
+inside there define how you want to recover from it.
+currently checks if its detected now. and if it is. continue whatever it was doing
+
 ## tc_offset_calibration_extras.cfg
 edit 
 ```
