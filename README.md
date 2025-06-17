@@ -1,11 +1,15 @@
 # Klipper-Toolchanger-Macros
 
-## PRINTER_PRINT_PATH.cfg
-a single macro which lets you explore around the possible variables in real time.
-provide PATH=somethign to explore
-so for example:
-![image](https://github.com/user-attachments/assets/020fde1e-a791-4704-9b0c-60b10d003e63)
-![image](https://github.com/user-attachments/assets/bd248166-e992-451e-a713-cf0ae30a9478)
+
+## macro_debugging.cfg 
+
+| Macro               | Description                                   | Example                          |
+|---------------------|-----------------------------------------------|----------------------------------|
+| **[DOC_DUMP](./macro_debugging.cfg#L7)**         | SEARCH DOCS FOR .FUNCTION()                  | ![doc_dump_example.png](images/doc_dump_example.png) |
+| **[MEGA_DUMP](./macro_debugging.cfg#L100)**        | N LEVEL BRUTE FORCE SEARCH (PRINTER OBJECT)   | ![unified_respond_example.png](images/unified_respond_example.png) |
+| **[PRINT_PRINTER_PATH](./macro_debugging.cfg#L386)**| PRINTS PRINTER.FOO.BAR (CONTENTS)            | ![print_printer_path.png](images/print_printer_path.png) |
+---
+
 
 
 ## toolchanger.cfg
