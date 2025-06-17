@@ -6,7 +6,7 @@
 | Macro               | Description                                   | Example                          |
 |---------------------|-----------------------------------------------|----------------------------------|
 | **[DOC_DUMP](./macro_debugging.cfg#L7)**         | SEARCH DOCS FOR .FUNCTION()                  | <img src="images/doc_dump_example.png" width="240"> |
-| **[MEGA_DUMP](./macro_debugging.cfg#L100)**        | N LEVEL BRUTE FORCE SEARCH (PRINTER OBJECT)   | <img src="images/unified_respond_example.png" width="240"> |
+| **[MEGA_DUMP](./macro_debugging.cfg#L100)**        | N LEVEL BRUTE FORCE SEARCH (PRINTER OBJECT)   | <img src="images/mega_dump_example.png" width="240"> |
 | **[PRINT_PRINTER_PATH](./macro_debugging.cfg#L386)**| PRINTS PRINTER.FOO.BAR (CONTENTS)            | <img src="images/print_printer_path.png" width="240"> |
 ---
 
