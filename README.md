@@ -6,8 +6,8 @@
 | Macro               | Description                                   | Example                          |
 |---------------------|-----------------------------------------------|----------------------------------|
 | **[DOC_DUMP](./macro_debugging.cfg#L7)**         | search the jinja function docs with keywords.                  | <img src="images/doc_dump_example.png" width="240"> |
-| **[MEGA_DUMP](./macro_debugging.cfg#L100)**        | brute force search for finding what executes what, finding objects and their type.   | <img src="images/mega_dump_example.png" width="240"> |
-| **[PRINT_PRINTER_PATH](./macro_debugging.cfg#L386)**| can print out specific paths, useful for debugging, easy to drop into macros to dump entire objects during runtime.| <img src="images/print_printer_path.png" width="240"> |
+| **[SEARCH](./macro_debugging.cfg#L100)**        | brute force search for finding what executes what, finding objects and their type.   | <img src="images/mega_dump_example.png" width="240"> |
+| **[PRINT_PRINTER_PATH](./macro_debugging.cfg#L298)**| can print out specific paths, useful for debugging, easy to drop into macros to dump entire objects during runtime.| <img src="images/print_printer_path.png" width="240"> |
 | **[NINJAGO](./macro_debugging.cfg#L544)**| can evaluate jinja for testing|  |
 ---
 
